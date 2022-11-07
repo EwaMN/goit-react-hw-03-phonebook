@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
-import { ContactForm } from './Form/Form';
-import { ContactList } from './List/List';
+import { ContactForm } from './ContactForm/ContactForm';
+import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 
 const INITIAL_STATE = {
